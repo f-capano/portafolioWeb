@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="images/programming_128.png" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portafolio</title>
 </head>
 
 <body>
 
 <!-- barra de navegación-->
-<nav class="menu-navegacion">
+<nav class="menu-navegacion" data-sr-id="0" style="visibility: visible; opacity: 1; transition: background 0.3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.25s;">
     <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="#Sobre mi">About me</a></li>
-        <li><a href="">Proyectos</a></li>
-        <li><a href="">Contacto</a></li>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#aboutMe">About me</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto-title">Contacto</a></li>
     </ul>
 </nav>
 <!-- fin barra de navegacion -->
 
     <main>
         <!-- contenido primero-->
-        <section class="container-home">
+        <section  id="home" class="container-home">
             <picture>
                 <img id="personal-img" src="images/ida_fabio.jpg" alt="">
             </picture>
@@ -38,7 +39,7 @@
         
         <!-- contenido segundo-->
 
-        <section class="container-aboutme">
+        <section id="aboutMe" class="container-aboutme">
             <div>
                 <h2 id="about-me-">Sobre mi</h2>
         
@@ -53,7 +54,7 @@
 
 
          <!-- contenido tercero- proyectos-->
-         <section class="container-proyectos">
+         <section id="proyectos" class="container-proyectos">
             <h2 id="proyecto-id">Proyectos</h2>
             <article class="proyecto-contenido">
             
@@ -136,7 +137,7 @@
 <footer>
         <p>@ Portafolio web hecho por Capano Fabio @</p>
 </footer>
-
+<script async src="js/menu-index.js"></script>
 </body>
 
 </html>

@@ -27,11 +27,20 @@ body{
 .menu-navegacion {
     height: auto;
     z-index: 5;
-    background-color: #ddccf74f;
+   /* background-color: #ddccf74f;*/
     border-radius: 5px;
     padding: 5px;
     margin: 0;
     width: 100%;
+    position: fixed;
+    top: 0;
+    
+}
+
+.menu-fixed {
+    position: fixed;
+    top: 0;
+    background-color: #000000;
 }
 
 .menu-navegacion ul {
@@ -80,6 +89,8 @@ body{
     background-image: url("../images/5172658.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 #personal-img {
