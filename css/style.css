@@ -348,6 +348,8 @@ footer {
   
     margin: 0;
     width: 100%;
+    position: relative;
+    background-color: #ddccf7;
    
     
 }
@@ -369,6 +371,9 @@ footer {
     padding: 5px 0;
     display: block;
 
+    background-color: #ddccf7;
+    border: 1px solid;
+    border-radius: 20px;
 
 
 }
