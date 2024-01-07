@@ -1,10 +1,17 @@
+html , body {
+    height: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+main {
+    min-height: 100%;
+    position: relative;
+}
 
 body{
     
@@ -12,9 +19,9 @@ body{
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    background-size: cover;
-    background-position: center;
 }
+
+
 
 /*---------------- navbar-------------------*/
 .menu-navegacion {
@@ -244,3 +251,16 @@ body{
 }
 
 /*--------------Contenido cuarto contacto fin------------------------*/
+
+
+
+
+
+/*-----------footer---------------------*/
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
