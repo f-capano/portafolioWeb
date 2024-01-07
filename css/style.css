@@ -66,7 +66,7 @@ body{
 }
 
 .menu-navegacion ul a:hover {
-    background: hsl(286, 72%, 7%);
+    background: hsl(263, 74%, 77%);
     
 }
 
@@ -123,6 +123,8 @@ body{
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    padding-top: 60px;
+    flex-direction: column;
 }
 
 #about-me- {
@@ -134,6 +136,33 @@ body{
 .container-aboutme p {
     text-align: justify;
     color: black;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+.skills h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-images {
+    padding: 20px;
+    margin: 0;
+}
+
+.skills-images img {
+    width: 100px;
+    padding: 0;
 }
 
 /*---------------- contenido-segundo about me fin-------------------*/
@@ -148,6 +177,7 @@ body{
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
+    padding-top: 60px;
 }
 
 #proyecto-id {
