@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 
 body{
     
@@ -207,22 +214,23 @@ body{
 
 .contacto-flex {
     width: 100%;
-    display: inherit;
-    margin: 0;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
     
 }
 
 .contacto-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
-.contacto-flex img {
-    width: 25%;
-}
 
+.contact-img img {
+    width: 65px;
+    
+}
 
 
 #contacto-title {
@@ -235,7 +243,4 @@ body{
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    display: inline-block; /* Hace que el enlace ocupe solo el espacio necesario */
-  }
+/*--------------Contenido cuarto contacto fin------------------------*/
