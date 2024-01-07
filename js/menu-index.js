@@ -25,7 +25,12 @@ window.addEventListener("scroll", function () {
                 targetElement.scrollIntoView({
                     behavior: 'smooth'
                 });
-            }, 50); // Puedes ajustar este valor si es necesario
+            }, 50);
         });
     });
 });
+
+
+
+
+

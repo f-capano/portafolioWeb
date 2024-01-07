@@ -305,3 +305,136 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+
+
+
+
+
+  /*-------------------------------empieza responsive mobile---------------------------------------------------------*/
+
+
+@media all and (min-width:600px) and (max-width:1023px) {
+
+
+
+
+
+/*---------------- contenido-tercero proyecto-------------------*/
+
+.proyecto-contenido {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*---------------- contenido-tercero proyecto fin-------------------*/
+
+
+
+
+}
+
+
+
+
+
+ /*-------------------------------empeiza responsive mobile---------------------------------------------------------*/
+ @media all and (max-width: 599px) {
+
+
+    /*---------------- navbar-------------------*/
+.menu-navegacion {
+  
+    margin: 0;
+    width: 100%;
+    position: relative;
+   
+    
+}
+
+
+.menu-navegacion ul {
+    list-style-type: none;
+    display: block;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0;
+    float: none;
+}
+
+
+.menu-navegacion ul li a {
+    text-decoration: none;
+    color: hsl(0, 14%, 97%);
+    padding: 5px 0;
+    display: block;
+    background-color: #ddccf7;
+    border: 1px solid;
+    border-radius: 20px;
+
+
+}
+
+
+
+
+/*---------------- navbar fin-------------------*/
+
+
+/*---------------- contenido-home-------------------*/
+
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#personal-img {
+    
+    margin-right: 0;
+}
+
+#personal-name {
+    text-align: center;
+}
+
+.descripcion-home p {
+    text-align: center;
+}
+/*---------------- contenido-home fin-------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- contenido-tercero proyecto-------------------*/
+
+.proyecto-contenido {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*---------------- contenido-tercero proyecto fin-------------------*/
+
+
+
+
+}
+
+
+ 
