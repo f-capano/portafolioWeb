@@ -1,0 +1,123 @@
+
+body{
+    
+    background-image:url("../images/SL_060521_43530_17.jpg");
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/*---------------- navbar-------------------*/
+.menu-navegacion {
+    height: auto;
+    z-index: 5;
+    background-color: #ddccf74f;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+}
+
+.menu-navegacion ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0;
+}
+
+.menu-navegacion li {
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.menu-navegacion ul li a {
+    text-decoration: none;
+    color: hsl(0, 14%, 97%);
+    padding: 5px 0;
+    display: block;
+}
+
+.menu-navegacion ul a:hover {
+    background: hsl(286, 72%, 7%);
+    
+}
+
+/*---------------- navbar fin-------------------*/
+
+
+/*---------------- contenido-home-------------------*/
+
+
+.container-home {
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url("../images/5172658.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#personal-img {
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+#personal-name {
+    color: white;
+    font-size: 40px;
+}
+
+.descripcion-home p {
+    color: white;
+    font-size: 15px;
+}
+/*---------------- contenido-home fin-------------------*/
+
+
+
+/*---------------- contenido-segundo about me-------------------*/
+
+
+.container-aboutme {
+    background-color: #ddccf74f;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#about-me- {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+/*---------------- contenido-segundo about me fin-------------------*/
+
+
+/*---------------- contenido-tercero proyecto-------------------*/
+
+
+.container-proyectos {
+    background-color: #ddccf74f;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#proyecto-id {
+    color: white;
+    font-size: 40px;
+}
